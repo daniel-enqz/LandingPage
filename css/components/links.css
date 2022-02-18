@@ -1,0 +1,9 @@
+.social-links {
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.social-links :hover {
+  transition: 1s ease;
+  color: rgb(0, 255, 149);
+}

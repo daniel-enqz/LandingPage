@@ -1,0 +1,30 @@
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cards :hover {
+  transition: 1s ease;
+  transform: translateY(-2rem);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 250px;
+  height: 300px;
+  margin: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgb(0 0 0 / 30%);
+}
+
+.card :hover{
+  transform: none;
+}
+.card img {
+  width: 50%;
+  height: 50%;
+}
